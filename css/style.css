@@ -1,0 +1,112 @@
+pre{
+	padding:10px;
+	border:solid 1px #DDD;
+	margin:10px auto 30px;
+	width:90%;
+	font-size: 15px;
+	overflow:auto;	
+}
+pre{
+	position:relative;
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+	overflow:hidden;
+}
+pre .hlTools{	
+	padding:10px 15px 10px 0;
+	background-color:#EEE;
+	border-left:solid 1px #ddd;
+	border-bottom:solid 1px #ddd;
+	margin-bottom:10px;
+	font-family:sans-serif;
+	text-align:right;
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:45;
+	font-size:13px;
+	border-radius:0 0 0 10px;
+	-moz-border-radius:0 0 0 10px;
+	-webkit-border-radius:0 0 0 10px;
+	box-shadow: -1px 1px 4px rgba(0,0,0,0.4);
+	-moz-box-shadow: -1px 1px 4px rgba(0,0,0,0.4);
+	-webkit-box-shadow: -1px 1px 4px rgba(0,0,0,0.4);
+	
+}
+pre .hlTools a{
+	margin-left:20px;
+	text-decoration:none;
+}
+pre .hlTools a:hover{
+	text-decoration:underline;
+}
+pre .showNum{
+	padding:4px 0 4px 45px;
+	position:relative;
+	background: url(data:image/gif;base64,R0lGODlhJAACAIAAAKysrO/v7yH5BAQAAAAALAAAAAAkAAIAAAIJjI+pqwAM43IFADs=) repeat-y;
+}
+pre .num{	
+	color:#000;
+	text-align:right;
+	overflow:hidden;
+	font-size:13px;
+	position:absolute;
+	left:0;
+	display:none;
+	width:32px;
+	overflow:hidden;
+	padding:1px 0;
+}
+pre .showNum .num{
+	display:block !important;
+}
+/*
+
+
+
+*/
+
+pre .comment,
+pre .comment .string,
+pre .comment .number,
+pre .comment .keyword,
+pre .comment .bold,
+pre .comment .attribute
+{
+	color:#00AF00 !important;
+	font-weight:normal !important;
+}
+pre .string,
+pre .string .number,
+pre .string .keyword,
+pre .string .bold,
+pre .string .attribute
+{
+	color:#d3d;
+	font-weight:normal;
+}
+pre .number{
+	color:#f00;
+}
+pre .keyword{
+	color:#77f;
+}
+pre .bold{
+	font-weight:bold;
+}
+pre .attribute{
+	color:#7F7F33;
+}
+pre .neutral,
+pre .neutral .string,
+pre .neutral .number,
+pre .neutral .keyword,
+pre .neutral .bold,
+pre .neutral .attribute
+{
+	color:#333 !important;
+	font-weight:normal !important;
+}

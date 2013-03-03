@@ -1,0 +1,51 @@
+pre{
+	position:relative;
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+	overflow:hidden;
+	color:#333;
+}
+pre .hlTools{	
+	padding:10px 15px 10px 0;
+	background-color:#f6f6f6;
+	border-left:solid 1px #ddd;
+	border-bottom:solid 1px #ddd;
+	margin-bottom:10px;
+	font-family:sans-serif;
+	text-align:right;
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:45;
+	font-size:13px;	
+}
+pre .hlTools a{
+	margin-left:20px;
+	text-decoration:none;
+}
+pre .hlTools a:hover{
+	text-decoration:underline;
+}
+pre .showNum{
+	padding:4px 0 4px 45px;
+	position:relative;
+	background: url(data:image/gif;base64,R0lGODlhJAACAIAAAKysrO/v7yH5BAQAAAAALAAAAAAkAAIAAAIJjI+pqwAM43IFADs=) repeat-y;
+}
+pre .num{	
+	color:#000;
+	text-align:right;
+	overflow:hidden;
+	font-size:13px;
+	position:absolute;
+	left:0;
+	display:none;
+	width:32px;
+	overflow:hidden;
+	padding:1px 0;
+}
+pre .showNum .num{
+	display:block !important;
+}
